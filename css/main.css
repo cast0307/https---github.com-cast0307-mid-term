@@ -1,0 +1,213 @@
+body {
+    /* background-color: #aad4cf;
+     */
+     background-color: #C4EEF2;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+html {
+    display: block;
+    padding: 0 450px;
+    background-color: #aad4cf;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* HEADER & IMAGE STYLE */
+
+.lonestar-header {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.title-centered {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-alignment {
+    width: 100%;
+    display: block;
+    height: 400px;
+}
+
+/* NAVIGATION STYLING */
+
+.topnav {
+    background-color: #C4EEF2;
+    display: flex;
+    overflow: hidden;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+.topnav a {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    color: black;
+    padding: 24px 40px;
+    text-decoration: none;
+    font-size: 24px;
+    width: 27%;
+    margin-bottom: 40px;
+}
+
+.topnav a:hover {
+    background-color: goldenrod;
+    opacity: 80%;
+    width: 50%;
+
+}
+
+.navbar:nth-child(1) {
+    border-right: 2px solid black;
+}
+
+.navbar:nth-child(2) {
+    border-right: 2px solid black;
+}
+
+/* ARTICLE STYLE */
+
+.container {
+    line-height: 25px;
+    padding-right: 50px;
+    padding-left: 10px;
+    text-align: justify;
+    margin: 0px 0 10px 0px;
+    max-width: 100%;
+    height: 100%;
+    background-color: #C4EEF2;
+}
+
+/* HEADING 2 STYLING */
+
+.heading2-style {
+    color: black;
+    font-size: 32px;
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrap-image {
+    width: 250px;
+    height: 250px;
+    float: left;
+    padding: 0 20px 20px 0px;
+}
+
+.container p {
+    font-size: 14px;
+}
+
+/* STARFISH FACTS STYLE*/
+
+.section-container {
+    background-color: #C4EEF2;
+    line-height: 25px;
+    text-align: justify;
+    max-width: 100%;
+    height: 100%;
+    margin-top: -10px;
+}
+
+.heading3-style {
+    color: black;
+    font-size: 23px;
+    margin-bottom: 2px;
+    padding: 20px 0 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section ul {
+    padding-left: 25px;
+    padding-bottom: 10px;
+    text-align: left;
+    line-height: normal;
+}
+
+.spacing {
+    margin-left: 8px;
+    margin-top: 15px;
+}
+
+/* CONTACT FORM */
+
+/* SUBHEADING */
+#contact {
+    background-color: #C4EEF2;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+/* form styling */
+
+.outerbox {
+    /* border: 2px dotted red; */
+    padding: 40px;
+}
+.form {
+    border: 1px solid black;
+    font-size: 18px;
+
+    padding: 30px 0px 0px 0px;
+    
+    background-color: #C4EEF2;
+    width: 100%;
+}
+
+.form-style {
+    padding: 30px 20px;
+    font-size: 18px;
+
+}
+
+.input-style {
+    width: 100%;
+    height: 30px;
+}
+
+.form-style .message-box {
+    width: 100%;
+    height: 7rem
+}
+
+.para {
+    font-size: 21px;
+}
+
+.input-style::placeholder,
+.message-box::placeholder {
+    padding: 12px;
+}
+
+button {
+    background-color: #C4EEF2;
+    padding: 10px 10px;
+    border: 0.5px solid black;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+/* FOOTER */
+.footer-style {
+    background-color: #C4EEF2;
+    height: 100%;
+    padding: 30px 20px 30px 20px;
+    text-align: right;
+
+}
